@@ -137,12 +137,6 @@
       <a name="facing" val="east"/>
       <a name="label" val="pedestrian_clock"/>
     </comp>
-    <comp lib="0" loc="(270,620)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="label" val="Output_1"/>
-      <a name="type" val="output"/>
-    </comp>
     <comp lib="0" loc="(300,330)" name="Splitter">
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
@@ -405,11 +399,8 @@
     <wire from="(190,640)" to="(190,660)"/>
     <wire from="(190,720)" to="(190,750)"/>
     <wire from="(190,750)" to="(360,750)"/>
-    <wire from="(220,670)" to="(230,670)"/>
+    <wire from="(220,670)" to="(300,670)"/>
     <wire from="(230,160)" to="(250,160)"/>
-    <wire from="(230,620)" to="(230,670)"/>
-    <wire from="(230,620)" to="(270,620)"/>
-    <wire from="(230,670)" to="(300,670)"/>
     <wire from="(240,800)" to="(250,800)"/>
     <wire from="(250,460)" to="(260,460)"/>
     <wire from="(250,690)" to="(250,800)"/>
